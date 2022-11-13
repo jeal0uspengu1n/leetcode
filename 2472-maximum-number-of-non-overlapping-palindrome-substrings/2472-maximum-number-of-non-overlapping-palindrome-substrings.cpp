@@ -3,7 +3,7 @@ public:
     vector<vector<bool> > solve(string &s)
     {
         int n = s.size();
-        // cout<<s<<" "<<n<<endl;
+        cout<<s<<" "<<n<<endl;
         vector<vector<bool> > dp(n, vector<bool>(n, false));
         for (int i = 0; i < n; i++) {
             dp[i][i] = 1;
